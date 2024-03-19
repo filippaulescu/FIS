@@ -73,3 +73,14 @@ public class Student {
         this.meanGrade = meanGrade;
     }
 }
+
+class fraierica{
+    private int nr_degete;
+    public fraierica(int nr){
+        this.nr_degete = nr;
+    }
+
+    public int afisare_fraierica(String nume){
+        System.out.println(nume + " are "+ nr_degete+ " degete");
+    }
+    }
